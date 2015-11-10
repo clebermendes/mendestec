@@ -1,0 +1,21 @@
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Varejo Venda.exe.config
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Varejo Venda.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Varejo Venda.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Business.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\DAO.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Model.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\itextsharp.dll
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Business.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\DAO.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\Model.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\bin\Debug\itextsharp.xml
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo Venda.csprojResolveAssemblyReference.cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Desconto.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Cancelar_Item.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Nova_Venda.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Principal.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Properties.Resources.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo Venda.csproj.GenerateResource.Cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo Venda.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo Venda.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Venda\obj\Debug\Varejo_Venda.Adicionar_Valor.resources

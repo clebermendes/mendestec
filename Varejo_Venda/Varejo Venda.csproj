@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC1B62FA-52F8-40DC-B590-2954F3C73DDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Varejo_Venda</RootNamespace>
+    <AssemblyName>Varejo Venda</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adicionar_Desconto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adicionar_Desconto.Designer.cs">
+      <DependentUpon>Adicionar_Desconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adicionar_Valor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adicionar_Valor.Designer.cs">
+      <DependentUpon>Adicionar_Valor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cancelar_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancelar_Item.Designer.cs">
+      <DependentUpon>Cancelar_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historico_Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historico_Venda.Designer.cs">
+      <DependentUpon>Historico_Venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nova_Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nova_Venda.Designer.cs">
+      <DependentUpon>Nova_Venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adicionar_Desconto.resx">
+      <DependentUpon>Adicionar_Desconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adicionar_Valor.resx">
+      <DependentUpon>Adicionar_Valor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancelar_Item.resx">
+      <DependentUpon>Cancelar_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historico_Venda.resx">
+      <DependentUpon>Historico_Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nova_Venda.resx">
+      <DependentUpon>Nova_Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shalom_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\shalom_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\abrir_foto.png" />
+    <Content Include="Imagens\add.png" />
+    <Content Include="Imagens\adicionar.png" />
+    <Content Include="Imagens\adicionar_plus.png" />
+    <Content Include="Imagens\adicionar_vendas.png" />
+    <None Include="Imagens\botao_fechar.png" />
+    <None Include="Imagens\botao_cancelar.png" />
+    <None Include="Imagens\botao_desconto.png" />
+    <None Include="Imagens\botao_item.png" />
+    <Content Include="Imagens\buscar.png" />
+    <Content Include="Imagens\cancel.png" />
+    <Content Include="Imagens\cancel_small.png" />
+    <Content Include="Imagens\consultar.png" />
+    <Content Include="Imagens\consultar_green.png" />
+    <Content Include="Imagens\detalhes.png" />
+    <Content Include="Imagens\editar.png" />
+    <Content Include="Imagens\edit_venda.png" />
+    <Content Include="Imagens\excel.png" />
+    <Content Include="Imagens\excluir.png" />
+    <Content Include="Imagens\fornecedor.png" />
+    <Content Include="Imagens\historico.png" />
+    <None Include="Imagens\item_cancelar.png" />
+    <None Include="Imagens\historico_venda.png" />
+    <Content Include="Imagens\login_venda.png" />
+    <Content Include="Imagens\minus.png" />
+    <None Include="Imagens\nova_venda.png" />
+    <Content Include="Imagens\ok.png" />
+    <Content Include="Imagens\ok_small.png" />
+    <Content Include="Imagens\pdf.png" />
+    <Content Include="Imagens\plus.png" />
+    <Content Include="Imagens\printer.png" />
+    <Content Include="Imagens\produto.png" />
+    <Content Include="Imagens\sair.png" />
+    <None Include="Imagens\shalom_logo_menor.jpg" />
+    <Content Include="Imagens\tela_desconto.png" />
+    <Content Include="Imagens\tipo.png" />
+    <Content Include="Imagens\trash.png" />
+    <Content Include="Imagens\valor_receber.png" />
+    <Content Include="Imagens\vendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{36d46b19-7a5a-4d13-88ef-1e99b8842528}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{0e62e0b7-07b0-415b-b897-be6ea5cb4127}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{f3d82b87-0c01-437b-a646-b5b536f3dab8}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

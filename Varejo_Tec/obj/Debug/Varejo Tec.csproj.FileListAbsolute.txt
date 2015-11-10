@@ -1,0 +1,34 @@
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Varejo Tec.exe.config
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo Tec.csprojResolveAssemblyReference.cache
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Historico.resources
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Login.resources
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Principal.resources
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Produto.resources
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Properties.Resources.resources
+c:\users\cleber mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo Tec.csproj.GenerateResource.Cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Varejo Tec.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Varejo Tec.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Business.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\EntityFramework.dll
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Model.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\DAO.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Business.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\Model.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\EntityFramework.xml
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\DAO.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo Tec.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo Tec.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.ProdutoConsulta.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.ProdutoCadastrar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo Tec.csproj.ResolveComReference.cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.FornecedorCadastrar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.VendaCadastrar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.TipoCadastrar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\itextsharp.dll
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\bin\Debug\itextsharp.xml
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.ProdutoEditar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.VendaConsultar.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.VendaConsultarProdutos.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Varejo Tec\obj\Debug\Varejo_Tec.Pedidos.resources

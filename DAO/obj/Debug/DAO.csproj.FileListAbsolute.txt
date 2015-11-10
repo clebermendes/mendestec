@@ -1,0 +1,13 @@
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.Properties.Resources.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.csproj.GenerateResource.Cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\DAO.exe.config
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\DAO.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\DAO.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\Model.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\Model.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\itextsharp.dll
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\bin\Debug\itextsharp.xml
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\DAO\obj\Debug\DAO.csproj.ResolveComReference.cache

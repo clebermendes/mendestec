@@ -1,0 +1,8 @@
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\bin\Debug\Model.exe.config
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\bin\Debug\Model.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\bin\Debug\Model.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\obj\Debug\Model.Properties.Resources.resources
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\obj\Debug\Model.exe
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\obj\Debug\Model.pdb
+C:\Users\Cleber Mendes\documents\visual studio 2015\Projects\Varejo Tec\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

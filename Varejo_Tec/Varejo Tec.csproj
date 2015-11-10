@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01248B26-691A-4CCA-BC83-03010C5269C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Varejo_Tec</RootNamespace>
+    <AssemblyName>Varejo Tec</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedidos.Designer.cs">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutoEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutoEditar.Designer.cs">
+      <DependentUpon>ProdutoEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VendaCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendaCadastrar.Designer.cs">
+      <DependentUpon>VendaCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FornecedorCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FornecedorCadastrar.Designer.cs">
+      <DependentUpon>FornecedorCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historico.Designer.cs">
+      <DependentUpon>Historico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produto.Designer.cs">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutoCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutoCadastrar.Designer.cs">
+      <DependentUpon>ProdutoCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutoConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutoConsulta.Designer.cs">
+      <DependentUpon>ProdutoConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoCadastrar.Designer.cs">
+      <DependentUpon>TipoCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VendaConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendaConsultar.Designer.cs">
+      <DependentUpon>VendaConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VendaConsultarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendaConsultarProdutos.Designer.cs">
+      <DependentUpon>VendaConsultarProdutos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Pedidos.resx">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutoEditar.resx">
+      <DependentUpon>ProdutoEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoCadastrar.resx">
+      <DependentUpon>TipoCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendaCadastrar.resx">
+      <DependentUpon>VendaCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FornecedorCadastrar.resx">
+      <DependentUpon>FornecedorCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historico.resx">
+      <DependentUpon>Historico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto.resx">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutoCadastrar.resx">
+      <DependentUpon>ProdutoCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutoConsulta.resx">
+      <DependentUpon>ProdutoConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendaConsultar.resx">
+      <DependentUpon>VendaConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendaConsultarProdutos.resx">
+      <DependentUpon>VendaConsultarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{36d46b19-7a5a-4d13-88ef-1e99b8842528}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{f3d82b87-0c01-437b-a646-b5b536f3dab8}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\abrir_foto.png" />
+    <None Include="Imagens\add.png" />
+    <Content Include="Imagens\adicionar.png" />
+    <None Include="Imagens\fornecedor.png" />
+    <None Include="Imagens\cancel_small.png" />
+    <Content Include="Imagens\adicionar_plus.png" />
+    <None Include="Imagens\buscar.png" />
+    <Content Include="Imagens\edit_venda.png" />
+    <Content Include="Imagens\excel.png" />
+    <Content Include="Imagens\minus.png" />
+    <Content Include="Imagens\ok.png" />
+    <None Include="Imagens\ok_small.png" />
+    <Content Include="Imagens\pdf.png" />
+    <Content Include="Imagens\plus.png" />
+    <Content Include="Imagens\printer.png" />
+    <Content Include="Imagens\tipo.png" />
+    <Content Include="Imagens\trash.png" />
+    <None Include="Imagens\adicionar_vendas.png" />
+    <Content Include="Imagens\cancel.png" />
+    <Content Include="Imagens\consultar.png" />
+    <Content Include="Imagens\consultar_green.png" />
+    <Content Include="Imagens\editar.png" />
+    <Content Include="Imagens\excluir.png" />
+    <Content Include="Imagens\historico.png" />
+    <Content Include="Imagens\produto.png" />
+    <None Include="Imagens\vendas.png" />
+    <None Include="Imagens\sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
